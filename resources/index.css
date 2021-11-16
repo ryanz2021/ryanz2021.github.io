@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+header{
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    z-index: 1;
+    display: block;
+    background-color: black;
+}
+
+header img{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 50px;
+
+}
+
+header li{
+    float: right;
+    text-decoration: underline;
+    font-size: 22px;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.site-hero{
+    top: 69px;
+    padding: 0;
+    height: 700px;
+    background-image: url("mission-background.jpeg");
+    position: absolute;
+    width: 1200px;
+    display: flex;
+    top: 69px;
+    align-content: center;
+    
+    margin-bottom: 100px;
+}
+
+.site-hero-text{
+    margin: auto 0;
+    padding: 0;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    
+}
+
+.site-hero-text h4{
+    margin-top: -10px;
+    padding-bottom: 20px;
+    
+}
+
+.site-hero-text h2{
+    margin-top: 7px;
+   
+}
+
+.featured-tea-text{
+    position: absolute;
+    top: 850px;
+}
+
+.featured-tea{
+    height: 550px;
+    width: 1000px;
+    position: relative;
+    top: 1000px;
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    margin: 0 auto;
+    
+}
+
+.featured-tea img{
+    height: 200px;
+    width: 300px;
+    
+}
+
+.myrtle-ave-image{
+  
+    margin-right: -160px;
+}
+
+.bedford-bizarre-image{
+    
+    margin-left: -160px;
+}
+
+.featured-tea h4{
+    margin-top: 10px;
+}
+
+.locations{
+    height: 600px;
+    width: 1200px;
+    position: absolute;
+    top: 1600px;
+    background-image: url("locations.jpeg");
+    
+    margin: auto 0;
+   
+}
+
+.locations-content{
+    display: flex;
+    opacity: 1;
+    justify-content: space-around;
+    align-items: center;
+    
+    position: relative;
+    top: 20%;
+}
+
+.locations-header h2{
+    
+    
+    
+    text-align: center;
+    
+    position: relative;
+    top: 75px;
+    margin-bottom: -30px;
+    
+}
+
+.downtown{
+    width: 300px;
+    height: 275px;
+    background-color: black;
+    margin-left: 100px;
+
+}
+
+.east-bayside{
+    width: 300px;
+    height: 275px;
+    background-color: black;
+}
+
+.oakdale{
+    width: 300px;
+    height: 275px;
+    background-color: black;
+    margin-right: 100px;
+}
+footer{
+    position: absolute;
+    text-align: center;
+    top: 2200px;
+    width: 100%;
+    height: 200px;
+    
+   
+}
+
+#copyright{
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 50px;
+    
+}
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 530px){
+    header li{
+        display: none;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .locations-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .downtown{
+        width: 300px;
+        height: 275px;
+        background-color: black;
+        margin-bottom: 100px;
+        
+        margin-left: 0;
+    }
+
+    .east-bayside{
+        width: 300px;
+        height: 275px;
+        background-color: black;
+    }
+    
+    .oakdale{
+        width: 300px;
+        height: 275px;
+        background-color: black;
+        margin-top: 100px;
+        margin-right: 0;
+    }
+
+
+    
+    
+}
